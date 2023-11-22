@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 50%;
+}
+
+._full-height {
+  height: 100%;
+}
+
+._badge {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+}
+
+._grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 10% 4fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "first first first first"
+  "first first first first"
+  "first first first first"
+  "second second third third"
+  "second second fourth fifth"
+  "sixth sixth sixth sixth"
+  "sixth sixth sixth sixth"
+  "sixth sixth sixth sixth"
+}
+
+._grid-area-first {
+  grid-area: first;
+}
+
+._grid-area-second {
+  grid-area: second;
+}
+
+._grid-area-third {
+  grid-area: third;
+}
+
+._grid-area-fourth {
+  grid-area: fourth;
+}
+
+._grid-area-fifth {
+  grid-area: fifth;
+}
+
+._grid-area-sixth {
+  grid-area: sixth;
+  display: grid;
+  justify-content: right;
+}
+
+._grid-area-badge {
+  grid-area: badge;
+}
+
+._grid-justify-self-end {
+  justify-self: end;
+}
+
+._grid-align-self-center {
+  align-self: center;
+}
+
+._text-align-end {
+  text-align: end;
+}
+
+._background-blue {
+  background-color: blue;
+}
+
+._background-beige {
+  background-color: beige;
+}
+
+._background-cyan {
+  background-color: cyan;
+}
+
+._background-light-green {
+  background-color: lightgreen;
+}
+
+._background-white {
+  background-color: white;
+}
+
+._background-green {
+  background-color: green;
+}
+
+._background-light-skyblue {
+  background-color: lightskyblue;
+}
+
+._background-light-coral {
+  background-color: lightcoral;
+}
+
+._background-light-pink {
+  background-color: pink;
+}

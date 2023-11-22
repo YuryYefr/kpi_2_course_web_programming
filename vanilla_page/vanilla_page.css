@@ -1,0 +1,96 @@
+/*vanilla*/
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 50%;
+}
+
+.container {
+  height: 100%;
+}
+
+.header {
+  background-color: lightgreen;
+  padding: 1.5em;
+  position: relative;
+}
+
+.badge {
+  background-color: white;
+  max-width: 2em;
+}
+
+.content {
+  height: 50%;
+}
+
+.inner-content {
+  background-color: green;
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.right-panel {
+  background-color: orange;
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.top-bar {
+  background-color: lightskyblue;
+  height: 30%;
+}
+
+.left-bar {
+  background-color: lightcoral;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.right-bar {
+  background-color: pink;
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.bottom-bar {
+  height: 70%;
+}
+
+.footer {
+  background-color: lightgreen;
+  padding: 1.5em;
+  position: relative;
+}
+
+.badge-left {
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  left: 1%;
+  padding: 0.2em;
+  width: 5%;
+
+}
+
+.badge-right {
+  position: absolute;
+  background-color: white;
+  top: 25%;
+  right: 1%;
+  padding: 0.2em;
+  width: 5%;
+  text-align: right;
+}
+
+.first-num {
+  text-align: right;
+}
