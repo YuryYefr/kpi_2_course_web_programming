@@ -5,3 +5,6 @@ node_modules
 dist
 .cache
 .idea/
+/lab_2/token.json
+.env
+/google_creds.json
